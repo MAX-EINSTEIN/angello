@@ -1,0 +1,38 @@
+@import "../styles/shared.scss";
+
+.Loading {
+  text-align: center;
+
+  .content {
+    background: $gradient-brand;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+
+    .brand-logo {
+      height: 40vmin;
+      pointer-events: none;
+    }
+
+    .prompt {
+      font-weight: 500;
+      animation: fly-in-from-bottom 1.5s ease-in;
+    }
+  }
+}
+
+@keyframes fly-in-from-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

@@ -1,0 +1,23 @@
+@import "./variables";
+@import "./fonts";
+@import "./mixins";
+
+.link {
+  color: $color-primary;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: $color-secondary;
+  }
+}
+
+.btn {
+  background: $color-primary;
+  color: aliceblue;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.25rem;
+}

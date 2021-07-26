@@ -1,0 +1,44 @@
+@import "../styles/shared.scss";
+
+.Login {
+  @include screen;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 0.8rem;
+
+  .header {
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      .brand {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        font-size: 1.88rem;
+        font-weight: 700;
+        color: $color-text-headings;
+
+        &__logo {
+          width: 2rem;
+          height: 2rem;
+          border-radius: 0.125rem;
+        }
+      }
+
+      .menu {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}

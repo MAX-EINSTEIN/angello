@@ -1,0 +1,10 @@
+// Colors
+$color-accent: hsl(200, 100%, 50%);
+$color-primary: hsl(206, 100%, 50%);
+$color-secondary: hsl(256, 100%, 50%);
+$color-text-headings: hsl(224, 35%, 20%);
+$color-text-body: hsl(224, 35%, 30%);
+
+// Gradients
+$gradient-brand: linear-gradient(180deg, lighten($color-accent, 20%) 0%, $color-primary 50%, $color-secondary 100%);
+$gradient-bg: linear-gradient(0deg, #fff 0%, lighten($color-secondary, 46%) 100%);
