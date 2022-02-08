@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/angello/static/css/main.475a5368.chunk.css",
+    "main.js": "/angello/static/js/main.8dd18bfe.chunk.js",
+    "main.js.map": "/angello/static/js/main.8dd18bfe.chunk.js.map",
+    "runtime-main.js": "/angello/static/js/runtime-main.125a00fe.js",
+    "runtime-main.js.map": "/angello/static/js/runtime-main.125a00fe.js.map",
+    "static/js/2.12cb340a.chunk.js": "/angello/static/js/2.12cb340a.chunk.js",
+    "static/js/2.12cb340a.chunk.js.map": "/angello/static/js/2.12cb340a.chunk.js.map",
+    "index.html": "/angello/index.html",
+    "static/css/main.475a5368.chunk.css.map": "/angello/static/css/main.475a5368.chunk.css.map",
+    "static/js/2.12cb340a.chunk.js.LICENSE.txt": "/angello/static/js/2.12cb340a.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/angello/static/media/Circular.ce173167.ttf",
+    "static/media/brand_logo.png": "/angello/static/media/brand_logo.9c4b2119.png",
+    "static/media/hero.svg": "/angello/static/media/hero.08d8848d.svg",
+    "static/media/splash.png": "/angello/static/media/splash.51b7d50e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.125a00fe.js",
+    "static/js/2.12cb340a.chunk.js",
+    "static/css/main.475a5368.chunk.css",
+    "static/js/main.8dd18bfe.chunk.js"
+  ]
+}
