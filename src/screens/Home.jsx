@@ -39,7 +39,7 @@ const Home = ({ logOut, userId, loginWithGoogle, name, isAnon }) => {
     }
 
     return boards !== null ? (
-        <BrowserRouter>
+        <BrowserRouter basename='/angello'>
             <Route exact path='/'>
                 <BoardList deleteBoard={deleteBoard} logOut={logOut} boards={boards} addNewBoard={addNewBoard} name={name} />
             </Route>
