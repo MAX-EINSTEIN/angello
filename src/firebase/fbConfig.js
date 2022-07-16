@@ -2,7 +2,7 @@ import firebase from 'firebase/app'
 import 'firebase/firestore'
 import 'firebase/auth'
 
-const FIREBASE_API_KEY = process.env.FIREBASE_API_KEY
+const FIREBASE_API_KEY = process.env.REACT_APP_FIREBASE_API_KEY
 
 
 var firebaseConfig = {
