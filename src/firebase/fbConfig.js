@@ -2,10 +2,11 @@ import firebase from 'firebase/app'
 import 'firebase/firestore'
 import 'firebase/auth'
 
-const FIREBASE_APIKEY = "AIzaSyCFlitI4CS2FwLeDTsFogajc6qj33zOATw"
+const FIREBASE_API_KEY = process.env.FIREBASE_API_KEY
+
 
 var firebaseConfig = {
-    apiKey: FIREBASE_APIKEY,
+    apiKey: FIREBASE_API_KEY,
     authDomain: "angello-kanban.firebaseapp.com",
     projectId: "angello-kanban",
     storageBucket: "angello-kanban.appspot.com",
